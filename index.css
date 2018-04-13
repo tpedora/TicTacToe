@@ -1,0 +1,68 @@
+.vertical {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-radius: 25px;
+  box-shadow: 1px 1px #595959;
+}
+
+.horizontal {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-radius: 25px;
+  box-shadow: 1px 1px #595959;
+}
+
+.corners {
+  background: #e6e6e6;
+  border-radius: 25px;
+}
+
+.center {
+  background: #e6e6e6;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 35px;
+  margin: 0 auto;
+  text-shadow: 1px 1px #595959;
+}
+
+.container {
+  background: #b3b3b3;
+  width: 400px;
+  margin: 5px auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 25px;
+  border: 3px solid rgba(0, 0, 0, 0);
+  box-shadow: 1px 1px #595959;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  background: #4d4dff;
+  margin: 65px auto 5px auto;
+  width: 400px;
+  border-radius: 25px;
+  text-shadow: 1px 1px #595959;
+  border: 3px solid rgba(0, 0, 0, 0);
+  box-shadow: 1px 1px #595959;
+}
+
+table {
+  margin: 0 auto;
+  width: 90%;
+  height: 50%;
+}
+
+body {
+  background: #3a6186;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: Sans-Serif;
+}
+
+
